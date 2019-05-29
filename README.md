@@ -1,3 +1,3 @@
-# React state Lab
+# React Passing State Lecture
 
-This is a finished version of the `react-state-lab` to show students.
+This app is for a walk-through during the lecture about passing state between components.
