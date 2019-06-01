@@ -4,7 +4,7 @@ import Hero from './Components/Hero.js'
 import Product from './Components/Product.js'
 import Summary from './Components/Summary.js'
 
-function App() {
+const App = () => {
   const component = new React.Component();
   component.state = {}
   
