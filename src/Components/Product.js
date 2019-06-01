@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'
 
-function Product(props) {
+const Product = (props) => {
   return(
     <div className="product">
       <p>Click me to buy a {props.type}!</p>
