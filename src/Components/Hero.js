@@ -4,7 +4,7 @@ import '../App.css'
 const Hero = () => {
   return(
     <div className="hero">
-      <h1>This is the Hero!</h1>
+      <h1>Buy Some School Supplies!</h1>
     </div>
   )
 }
