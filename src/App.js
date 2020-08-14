@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import Hero from './Components/Hero.js'
-import Product from './Components/Product.js'
-import Summary from './Components/Summary.js'
+import Hero from './Components/Hero.js';
+import Product from './Components/Product.js';
+import Summary from './Components/Summary.js';
 
-const App = () => {
-  const component = new React.Component();
-  component.state = {}
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
   
-  component.render = () => {
+  render() {
     return (
       <div className="App">
         <Hero />
@@ -17,10 +19,8 @@ const App = () => {
         <Product type="College Ruled Loose Leaf" price="2.75" />
         <Summary globalState={component.state} />
       </div>
-    )
+    );
   }
-  
-  return component;
 }
 
 export default App;
