@@ -17,7 +17,7 @@ class App extends Component {
         <Product type="Laptop" price="999.00" />
         <Product type="Mechanical Pencil" price="0.25" />
         <Product type="College Ruled Loose Leaf" price="2.75" />
-        <Summary globalState={component.state} />
+        <Summary globalState={this.state} />
       </div>
     );
   }
