@@ -1,10 +1,13 @@
 import React from 'react';
 import '../App.css';
 
-function Summary() {
+function Summary(props) {
   return(
     <div className="summary">
-      <p>This is a Summary!</p>
+      <p>Cart Total:</p>
+      <p> Laptops: {props.cart2.laptops}</p>
+      <p> Pencils: {props.cart2.pencils}</p>
+      <p> Paper: {props.cart2.paper}</p>
     </div>
   );
 }
